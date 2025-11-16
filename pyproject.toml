@@ -1,0 +1,17 @@
+[project]
+name = "finetune-on-aws"
+version = "0.1.0"
+description = "LLM Fine-tuning on AWS using SageMaker"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "boto3>=1.37.38",
+    "datasets>=3.1.0",
+    "ipykernel",
+    "jupyter",
+    "pandas>=2.0.3",
+    "sagemaker>=2.243.2",
+]
+
+[tool.uv]
+dev-dependencies = []
