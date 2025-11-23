@@ -1,0 +1,4 @@
+# Minimal requirements that work with Python 3.14
+python-dotenv
+requests
+# Skip packages that need compilation for now

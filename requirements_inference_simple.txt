@@ -1,0 +1,16 @@
+# Requirements for LLM inference without problematic packages
+streamlit==1.38.0  # Use older version that doesn't require pyarrow
+python-dotenv
+requests
+# faiss-cpu  # Skip FAISS for now - causes build issues
+numpy
+# langchain  # Skip langchain packages that depend on complex deps
+# langchain-core
+# langchain-community  
+# langchain-google-genai
+
+# Add simple alternatives
+pandas  # For data handling
+scikit-learn  # For basic ML operations
+matplotlib  # For plotting
+seaborn  # For better plots
